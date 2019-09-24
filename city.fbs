@@ -1,0 +1,11 @@
+namespace Location;
+table City_Fb
+{
+	city_name :string;
+	area_code :string;
+}
+table Provice_Fb
+{
+	city_list:[City_Fb];
+}
+root_type Provice_Fb;
