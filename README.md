@@ -33,7 +33,7 @@ I have some questions:
      Verify failed!
      ```
 
-- 3.if `memset(buffer+100, 0x01, sizeof(char)*50);`
+- 3.if `memset(buffer+100, 0x01, sizeof(char)*1);`
 
   the result:
 
